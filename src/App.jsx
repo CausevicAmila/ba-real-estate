@@ -1,10 +1,13 @@
-import Header from "./components/Header/Header";
-function App() {
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+
+const App = () => {
   return (
-    <div className = "App">
-      <Header/>
-    </div>
+    <section
+      className="h-screen" >
+      <Navbar />
+    </section>
   );
-}
+};
 
 export default App;
