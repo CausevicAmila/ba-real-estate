@@ -15,15 +15,15 @@ const Navbar = () => {
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center font-semibold font-inter text-primary text-2xl leading-8  mt-10 gap-2">
+        <ul className="md:flex hidden items-center font-semibold font-inter text-primary text-2xl leading-8 mt-10 gap-3">
         <NavLinks />
           <li>
-            <Link to="/" className="py-7 px-3 inline-block ">
+            <Link to="/" className="py-7 px-3 inline-block">
               ABOUT US
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-3 inline-block ">
+            <Link to="/" className="py-7 px-3 inline-block ml-50 ">
               LOG IN
             </Link>
           </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-28 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >

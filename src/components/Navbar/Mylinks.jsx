@@ -4,7 +4,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        //Head: "Topwear",
+        //Head: "CATEGORIES",
         sublink: [
           { name: "Flat", link: "/flat" },
           { name: "Commercial", link: "/commercial" },
@@ -18,7 +18,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        //Head: "Topwear",
+        //Head: "CATEGORIES",
         sublink: [
           { name: "Flat", link: "/flat" },
           { name: "Commercial", link: "/commercial" },

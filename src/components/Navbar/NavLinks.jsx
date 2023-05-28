@@ -29,6 +29,7 @@ const NavLinks = () => {
                 <ion-icon name="chevron-down"></ion-icon>
               </span>
             </h1>
+            {/*overlay*/}
             {link.submenu && (
               <div>
                 <div className="absolute top-28 hidden group-hover:md:block hover:md:block">
@@ -37,17 +38,17 @@ const NavLinks = () => {
                       className="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                  <div className="bg-white p-6 grid grid-cols-1 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-semibold">
+                        <h1 className="text-lg font-semibold ">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-sm text-gray-600 my-2.5">
                             <Link
                               to={slink.link}
-                              className="hover:text-primary"
+                              className="hover:text-primary font-semibold leading-7 text-lg uppercase "
                             >
                               {slink.name}
                             </Link>
@@ -63,24 +64,24 @@ const NavLinks = () => {
           {/* Mobile menus */}
           <div
             className={`
-            ${heading === link.name ? "md:hidden" : "hidden"}
-          `}
+            ${heading ===  link.name ? "md:hidden" : "hidden"}
+          `} 
           >
             {/* sublinks */}
             {link.sublinks.map((slinks) => (
               <div>
                 <div>
-                  <h1
+                  <h1 
                     onClick={() =>
                       subHeading !== slinks.Head
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
+                    className="py-4 pl-7 font-semibold leading-8 text-xl  flex justify-between items-center md:pr-0 pr-5"
                   >
                     {slinks.Head}
 
-                    <span className="text-xl md:mt-1 md:ml-2 inline">
+                    <span className="text-xl md:mt-1 md:ml-2 inline"> CATEGORIES
                       <ion-icon
                         name={`${
                           subHeading === slinks.Head
@@ -96,7 +97,7 @@ const NavLinks = () => {
                     }`}
                   >
                     {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14">
+                      <li className="py-3 pl-14 font-semibold leading-7 text-xl uppercase"> 
                         <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}
