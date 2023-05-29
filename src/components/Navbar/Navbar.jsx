@@ -19,13 +19,13 @@ const Navbar = () => {
         <ul className="md:flex hidden items-center font-semibold font-inter text-primary text-2xl leading-8 mt-10 gap-3">
         <NavLinks />
           <li>
-            <Link to="../../routes/AboutUs.jsx" className="py-7 px-3 inline-block">
+            <Link to="/aboutus" className="py-7 px-3 inline-block">
               ABOUT US
             </Link>
           </li>
 
           <li>
-            <Link to="/sellform" className="py-7 px-3 inline-block">
+            <Link to="/form" className="py-7 px-3 inline-block">
               SELL
             </Link>
           </li>
