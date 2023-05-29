@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../public/balogo.png";
 import NavLinks from "./NavLinks";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-lightgray">
+    <nav className="bg-lightgray border-b border-gray-200">
       <div className="flex items-center font-semibold font-inter text-primary text-2xl leading-8 ">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
         <a href="/">
@@ -18,17 +19,22 @@ const Navbar = () => {
         <ul className="md:flex hidden items-center font-semibold font-inter text-primary text-2xl leading-8 mt-10 gap-3">
         <NavLinks />
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="../../routes/AboutUs.jsx" className="py-7 px-3 inline-block">
               ABOUT US
             </Link>
           </li>
+
           <li>
-            <Link to="/" className="py-7 px-3 inline-block ml-50 ">
+            <Link to="/sellform" className="py-7 px-3 inline-block">
+              SELL
+            </Link>
+          </li>
+          <li>
+            <Link to="/login" className="py-7 px-3 inline-block">
               LOG IN
             </Link>
           </li>
-        </ul>
-  
+        </ul>    
         
         {/* Mobile nav */}
         <ul
@@ -39,12 +45,17 @@ const Navbar = () => {
         >
         <NavLinks />
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/aboutus" className="py-7 px-3 inline-block">
               ABOUT US
             </Link>
           </li>
           <li>
-          <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/sellform" className="py-7 px-3 inline-block">
+              SELL
+            </Link>
+          </li>
+          <li>
+          <Link to="/login" className="py-7 px-3 inline-block">
             LOG IN 
           </Link>
         </li>

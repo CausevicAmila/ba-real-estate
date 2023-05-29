@@ -6,9 +6,9 @@ export const links = [
       {
         //Head: "CATEGORIES",
         sublink: [
-          { name: "Flat", link: "/flat" },
-          { name: "Commercial", link: "/commercial" },
-          { name: "Apartment", link: "/apartment" },
+          { name: "Flat", link: "../../routes/Sales.jsx" },
+          { name: "Commercial", link: "../../routes/Commercials.jsx" },
+          { name: "Apartment", link: "../../routes/Apartments.jsx" },
         ],
       },
     ],
@@ -20,8 +20,8 @@ export const links = [
       {
         //Head: "CATEGORIES",
         sublink: [
-          { name: "Flat", link: "/flat" },
-          { name: "Commercial", link: "/commercial" },
+          { name: "Flat", link: "../../routes/Rentals.jsx" },
+          { name: "Commercial", link: "../../routes/CommercialRentals.jsx" },
         ],
       },
      
