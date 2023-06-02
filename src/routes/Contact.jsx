@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SellForm() {
+function Contact() {
     return(
         <>
             <h1>I WANT TO SELL</h1>
@@ -11,4 +11,4 @@ function SellForm() {
 }
 
 
-export default SellForm;
+export default Contact;

@@ -1,19 +1,25 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import { Route, BrowserRouter as Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Sales from './routes/Sales'
-import SearchBar from "./components/SearchBar/SearchBar";
+import Home from './routes/Home';
+import Rentals from './routes/Rentals';
+import Contact from "./routes/Contact";
+import AboutUs from './routes/AboutUs';
+import Login from './routes/Login';
+
 function App() {
   return (
     <section className="h-screen">
-        <Navbar />
-
-        <div className="search-bar"> 
-           <SearchBar/>
-        </div>
+      <Routes>
+        <Route path="/sales" element={<Sales />} />
+        <Route path="/rentals" element={<Rentals />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
     </section>
-    
-    
   );
 }
 

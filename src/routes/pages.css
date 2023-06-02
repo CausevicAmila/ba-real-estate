@@ -1,0 +1,11 @@
+.search-bar{
+    margin-top: 24px;
+}
+
+.image{
+
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
