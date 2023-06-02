@@ -7,8 +7,10 @@ function App() {
   return (
     <section className="h-screen">
         <Navbar />
-  
-        
+
+        <div className="search-bar"> 
+           <SearchBar/>
+        </div>
     </section>
     
     
