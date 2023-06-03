@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
-import SearchBar from "../components/SearchBar/SearchBar";
-import "./pages.css";
+import Navbar from "../../components/Navbar/Navbar";
+import SearchBar from "../../components/SearchBar/SearchBar";
+import "./Home.css";
 function Home() {
   return (
     <section className="h-screen">

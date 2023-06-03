@@ -1,0 +1,30 @@
+.search-bar {
+    margin-top: 24px;
+  }
+  
+  .image {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .h-container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  @media (max-width: 950px) {
+    .h-container {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .image {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  

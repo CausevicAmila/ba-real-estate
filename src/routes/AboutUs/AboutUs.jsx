@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar';
-import './pages.css';
+import Navbar from '../../components/Navbar/Navbar';
+import './AboutUsPage.css';
+import Footer from '../../components/Footer/Footer';
 function AboutUs() {
     return(
         <>
@@ -33,7 +34,8 @@ function AboutUs() {
                 <img className="about-image object-cover" src="../src/public/about4.png" alt="Image 4" />
             </div>
         </div>
-       
+        <Footer />
+
         
         </section>
         </>
