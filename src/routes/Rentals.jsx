@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar';
 import SearchBar from '../components/SearchBar/SearchBar';
 import { Link } from 'react-router-dom';
-
+import Footer from '../components/Footer/Footer';
 function Rentals() {
     return(
         <>
@@ -17,6 +17,7 @@ function Rentals() {
             
                 </Link>
             </div>
+            <Footer />
         </section>
         </>
     );

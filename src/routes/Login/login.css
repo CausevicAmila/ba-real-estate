@@ -1,0 +1,14 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h-containerlog {
+    width: 720px;
+    height: 450px;
+    margin-top: 24px;
+  }
+  
