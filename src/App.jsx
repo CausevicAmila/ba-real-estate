@@ -6,6 +6,8 @@ import Rentals from './routes/Rentals';
 import Contact from "./routes/Contact/Contact";
 import AboutUs from './routes/AboutUs/AboutUs';
 import Login from './routes/Login/Login';
+import ForgotPassword from './routes/ForgotPassword/ForgotPassword';
+import Register from './routes/Register/Register';
 import Apartments from './routes/Apartments';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/" element={<Home />} />
         <Route path="/apartments" element={<Apartments />} />
+        <Route path="/forgot" element={<ForgotPassword />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </section>
   );
