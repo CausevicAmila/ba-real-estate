@@ -1,9 +1,15 @@
-import React from 'react'
-
+import React from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import SearchBar from '../components/SearchBar/SearchBar';
 function Sales() {
     return(
         <>
-            <h1> THIS IS Sales</h1>
+        <section className="h-screen">
+            <Navbar />
+            <div className="search-bar"> 
+                <SearchBar/>
+            </div>
+        </section>
         </>
     );
   
