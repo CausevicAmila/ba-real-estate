@@ -6,6 +6,7 @@ import Rentals from './routes/Rentals';
 import Contact from "./routes/Contact";
 import AboutUs from './routes/AboutUs';
 import Login from './routes/Login';
+import Apartments from './routes/Apartments';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/" element={<Home />} />
+        <Route path="/apartments" element={<Apartments />} />
       </Routes>
     </section>
   );

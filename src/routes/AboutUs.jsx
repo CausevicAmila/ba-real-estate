@@ -25,7 +25,15 @@ function AboutUs() {
              
              The BA Real Estate Team
              </div>
+
+            <div className="image-container">
+                <img className="about-image object-cover" src="../src/public/about1.png" alt="Image 1" />
+                <img className="about-image object-cover" src="../src/public/about2.png" alt="Image 2" />
+                <img className="about-image object-cover" src="../src/public/about3.png" alt="Image 3" />
+                <img className="about-image object-cover" src="../src/public/about4.png" alt="Image 4" />
+            </div>
         </div>
+       
         
         </section>
         </>
