@@ -24,3 +24,15 @@
     height: 392px;
     margin-top: 24px;
 }
+
+@media (max-width: 950px) {
+    .h-container {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .text {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
