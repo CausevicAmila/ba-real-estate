@@ -6,16 +6,22 @@ import './Login.css'; // Import the CSS file for styling
 function Login() {
   return (
     <>
-      <section className="h-screen bg-white">
-        <Navbar />
-        <div className="login-container">
-          <div className="h-containerlog bg-lightgray text-primary text-3xl leading-9 font-extrabold">
-            <h1>Hello</h1>
+    <div className="page-wrapper">
+      <Navbar />
+      <section className="h-screen">
+          <div className="h-containerlog bg-lightgray text-primary">
+            <div>
+              <p className='text1  text-3xl leading-9 font-extrabold'>Lets’s sign you in!</p>
+              <p className='text2 text-xl leading-7 font-normal' >Welcome back! <br></br><br></br>
+
+              Please enter your email address and password to access your account. </p>
+            </div>
           </div>
-        </div>
-        <Footer />
       </section>
+      <Footer /> 
+    </div>
     </>
+    
   );
 }
 
