@@ -78,6 +78,10 @@
   background-color: #F2F2F2;
   color: #007aff;
 }
+.login-button.clicked {
+  background-color: #007aff;
+  color: #F2F2F2;
+}
 
 @media (max-width: 950px) {
   .footer {

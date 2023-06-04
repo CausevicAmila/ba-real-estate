@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import './Login.css'; // Import the CSS file for styling
@@ -6,6 +6,11 @@ import { MdEmail, MdPassword } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 function Login() {
+  const [isButtonClicked, setButtonClicked] = useState(false);
+
+  const handleClick = () => {
+    setButtonClicked(true);
+  };
   return (
     <>
     <div className="page-wrapper">
@@ -26,13 +31,13 @@ function Login() {
                     <input type="text" className="email-input" placeholder="Enter your email " />
                   </div>
               </div>
-              <div className='fpassword'>
-                <p >Password</p>
-                  <div className="email bg-lightgray">
-                    <MdPassword className="email-icon text-gray" />
-                    <input type="text" className="email-input" placeholder="Enter your password " />
-                  </div>
-              </div>
+                <div className='fpassword'>
+                  <p >Password</p>
+                    <div className="email bg-lightgray">
+                      <MdPassword className="email-icon text-gray" />
+                      <input type="text" className="email-input" placeholder="Enter your password " />
+                    </div>
+                </div>
               <div className='flinks'>
                  <Link to="/forgot">
                     <button>Forgot Password?</button>
@@ -46,7 +51,9 @@ function Login() {
               </div>
             </div>
             <div>
-              <button className="login-button bg-accent text-lightgray">Log in</button>
+              <Link to="/sales" className={`login-button bg-accent text-lightgray ${isButtonClicked ? 'clicked' : ''}`}>
+                <button onClick={handleClick}>Sign in</button>
+              </Link>
             </div>
           </div>
       </section>
