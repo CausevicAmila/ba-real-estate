@@ -16,6 +16,8 @@
   padding-top: 48px;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text2{
   padding-top: 24px;
@@ -94,7 +96,8 @@
     padding-top: 24px;
     padding-bottom: 24px;
     max-width: 400px; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+     
   }
   .forml{
     padding-left: 80px;
@@ -111,3 +114,4 @@
   }
   
 }
+

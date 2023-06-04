@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import "./Home.css";
 import Footer from "../../components/Footer/Footer";
+import Card from '../../components/Card/Card';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <div className="image object-cover">
           <img src="../src/public/home.png" alt="" />
         </div>
+        <Card />
       </section>
       <Footer /> 
     </div>

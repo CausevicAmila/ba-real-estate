@@ -1,0 +1,21 @@
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .t-card {
+    width: 576px;
+    height: 728px;
+    border-radius: 20px;
+  }
+  
+  .t-image {
+    width: 520px;
+    height: 520px;
+    border-radius: 20px;
+  }
+  
