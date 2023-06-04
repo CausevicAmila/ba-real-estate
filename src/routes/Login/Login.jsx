@@ -18,7 +18,7 @@ function Login() {
 
               Please enter your email address and password to access your account. </p>
             </div>
-            <div className='form text-xl leading-7 font-normal text-primary'>
+            <div className='forml text-xl leading-7 font-normal text-primary'>
               <div className='femail'>
                 <p >Email</p>
                   <div className="email bg-lightgray">
