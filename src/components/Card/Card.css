@@ -24,14 +24,36 @@
   }
   .text{
     text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   
-  
-  @media (max-width: 950px) {
+
+
+  @media (max-width: 1320px) {
     .card {
-      flex-direction: column;
+      flex-wrap: wrap;
       margin-left: 40px;
       margin-right: 40px;
     }
+  
+    .t-card {
+      width: 100%; /* Adjust the width as needed */
+      max-width: 576px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 24px;
+    }
+  
+    .t-image {
+      width: 90%; /* Adjust the width as needed */
+      max-width: 500px;
+      height: auto;
+      max-height: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
   }
   
