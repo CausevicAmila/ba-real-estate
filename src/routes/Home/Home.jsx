@@ -7,9 +7,9 @@ import Card from '../../components/Card/Card';
 
 function Home() {
   return (
-    <div className="page-wrapper">
+    <div >
       <Navbar />
-      <section className="h-screen">
+      <section >
         <div className="search-bar"> 
            <SearchBar/>
         </div>
