@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import './Login.css'; // Import the CSS file for styling
+import './Login.css';
 import { MdEmail, MdPassword } from 'react-icons/md'; 
 import { Link } from 'react-router-dom';
 
