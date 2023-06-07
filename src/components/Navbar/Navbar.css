@@ -88,18 +88,20 @@
   .nav-menu.active{
     left: 0;
     opacity: 1;
-    z-index: -1;
+    z-index: 100;
+    padding-bottom: 20px;
+    text-align: center;
     transition: 0.3s ease-in-out;
   }
   #nav-link {
     display: block;
     width: 100%;
-    padding: 40px;
     align-items: center;
   }
   .menu-icons {
     display: block;
     cursor: pointer;
+    z-index: 101;
   }
 
 }

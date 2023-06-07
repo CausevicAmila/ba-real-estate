@@ -1,0 +1,15 @@
+.h-text{
+    margin-left: 88px;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+}
+
+.sort{
+    margin-left: 24px;
+    margin-right: 88px;
+}

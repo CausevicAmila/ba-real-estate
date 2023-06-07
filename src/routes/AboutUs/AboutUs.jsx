@@ -8,7 +8,7 @@ function AboutUs() {
         <section className="h-screen">
         <Navbar />
         <div className='h-container'>
-            <div className='header text-primary font-semibold font-inter text-2xl leading-8 uppercase'>
+            <div className='aheader text-primary font-semibold font-inter text-2xl leading-8 uppercase'>
                 ABOUT BA REAL ESTATE
              </div>
              <div className='text font-normal text-darkgray text-xl leading-7 '>

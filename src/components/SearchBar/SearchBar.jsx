@@ -7,7 +7,7 @@ const SearchBar = () => {
   return (
     <>
       <input type="text" className="search-input" placeholder="Search..." />
-      <button className="search-button font-sans">
+      <button className="search-button font-sans bg-accent">
         <GoSearch className="search-icon " />
         Search
       </button>
