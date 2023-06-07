@@ -64,3 +64,15 @@
   padding-top: 6px;
   padding-left: 6px;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  .dropdown {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .dropdown-toggle {
+    margin-left: 0;
+  }
+}

@@ -16,7 +16,6 @@ function PropertyCard() {
           area = {card.area}
           price ={card.price}
           link={card.plink}
-          
         />
       ))}
     </div>

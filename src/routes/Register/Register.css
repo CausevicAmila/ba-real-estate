@@ -110,6 +110,27 @@
   background-color: #007aff;
   color: #F2F2F2;
 }
+.note{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.note-input{
+  flex-grow: 1;
+  border: none;
+  color: gray;
+  background: none;
+  outline: none;
+  font-size: small;
+}
+.rnote{
+    display: flex;
+    align-items: center;
+    width: 456px;
+    height: 80px;
+    border-radius: 6px;
+    padding-left: 8px;
+    border: 1px solid gray;
+  }
 
 @media (max-width: 950px) {
   .footer {
@@ -153,5 +174,16 @@
     margin-bottom: 40px;
     width: auto;
   }
+  .note{
+    width: 100%;
+  }
+  .note-input{
+    width: 100%;
+  }
+  .rnote{
+      
+      width: 100%;
+      
+    }
   
 }
