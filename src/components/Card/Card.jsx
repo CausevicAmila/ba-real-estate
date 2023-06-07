@@ -6,7 +6,7 @@ import Card2 from '../../public/rent.jpg';
 function Card(){
     
     return(
-        <div className='card'>
+        <div className='card object-cover'>
             <CardData 
                 image={Card1}
                 heading ="Buy a Home"

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import SearchBar from '../components/SearchBar/SearchBar';
+import PropertyCard from '../components/Property/PropertyCard';
 function Sales() {
     return(
         <>
@@ -9,6 +10,7 @@ function Sales() {
             <div className="search-bar"> 
                 <SearchBar/>
             </div>
+            <PropertyCard />
         </section>
         </>
     );

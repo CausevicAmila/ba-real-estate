@@ -9,6 +9,7 @@ import Login from './routes/Login/Login';
 import ForgotPassword from './routes/ForgotPassword/ForgotPassword';
 import Register from './routes/Register/Register';
 import Apartments from './routes/Apartments';
+import PropertyDetails from "./routes/PropertyDetail/PropertyDetail";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/apartments" element={<Apartments />} />
         <Route path="/forgot" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/property" element={<PropertyDetails/>} />
       </Routes>
     </section>
   );
