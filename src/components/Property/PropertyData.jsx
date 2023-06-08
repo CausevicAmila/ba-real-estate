@@ -5,13 +5,14 @@ import { IoLocationOutline } from 'react-icons/io5';
 import {FaBed} from 'react-icons/fa';
 import {MdSpaceBar} from 'react-icons/md';
 import {MdOutlineEuro} from 'react-icons/md';
+
 function PropertyData(props) {
   const [isButtonClicked, setButtonClicked] = useState(false);
 
   const handleClick = () => {
     setButtonClicked(true);
   };
-
+ 
   return (
     <div className='p-card bg-lightgray'>
       <div className='p-image object-cover mt-6 ml-6 mr-6'>
@@ -47,11 +48,12 @@ function PropertyData(props) {
         <div className='propcard-button-container'>
           <Link
             to={props.link}
+
             className={`propcard-button bg-accent text-lightgray ${
               isButtonClicked ? 'clicked' : ''
             }`}
           >
-            <button onClick={handleClick}>See More</button>
+            <button onClick={handleClick} >See More</button>
           </Link>
         </div>
       </div>
